@@ -1,20 +1,27 @@
 # LoadApp
 
-In this project students will create an app to download a file from Internet by clicking on a custom-built button where:
- - width of the button gets animated from left to right;
- - text gets changed based on different states of the button;
- - circle gets be animated from 0 to 360 degrees
+> In this project, there is an app to download a file from Internet by clicking on a custom-built button where:
+ - The width of the button gets animated from left to right.
+ - The text gets changed based on different states of the button.
+ - The circle gets be animated from 0 to 360 degrees.
 
-A notification will be sent once the download is complete. When a user clicks on notification, the user lands on detail activity and the notification gets dismissed. In detail activity, the status of the download will be displayed and animated via MotionLayout upon opening the activity.
+> A notification will be sent once the download is complete. When a user clicks on notification, the user lands on detail activity and the notification gets dismissed. In detail activity, the status of the download will be displayed and animated via MotionLayout upon opening the activity.
 
 [The final look of the app](https://gph.is/g/Zywmnre)
 
 
 ## Getting Started
 
-Instructions for how to get a copy of the project running on your local machine.
+> After downloading the starter code, I started to create the options radio-buttons list for the 3 links. After that, I created a custom downloading button with a meaningful downloading animation. Finally, I made a notification to notify the user after the download is finished successfully and enabled in the notification action to go to the download details page (fragment).
 
 ### Dependencies
+> This app is working on Android versions from Android 7.0 (Nougat) to Android 11 (Red Velvet Cake).
+
+Gradle Versions:
+ - Android Gradle Plugin Version: 4.0.1
+ - Gradle Version: 6.1.1
+
+> There are the other dependencies to enable them in the build.gradle (module) file:
 
 ```
     implementation fileTree(dir: 'libs', include: ['*.jar'])
@@ -40,21 +47,6 @@ List out the steps:
 5. Once the project is opened in Android studio, go to File -> Sync Project with gradle files
 6. Click on "Run" button in Android Studio to install the project on the phone or emulator
 ```
-
-## Testing
-
-Explain the steps needed to run any automated tests
-
-### Break Down Tests
-
-Explain what each test does and why
-
-```
-Examples here
-```
-## Project Instructions
-
-This section should contain all the student deliverables for this project.
 
 ## Built With
 
