@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="LoadingButton">
+        <!-- 2.6.2.1: TODO: create custom attributes for the view -->
+        <!-- Note: Reuse the DialView attrs in the lesson 2! -->
+        <attr name="buttonColor" format="color" />
+        <attr name="loadingBackgroundColor" format="color" />
+        <attr name="loadingCircleColor" format="color" />
+    </declare-styleable>
+</resources>

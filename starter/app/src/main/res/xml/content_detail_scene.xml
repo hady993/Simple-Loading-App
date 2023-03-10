@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Step 9: Use declarative XML with motionLayout to coordinate animations across the views on the detail screen!  -->
+<!-- 9.2: Create the motion scene! -->
+<MotionScene xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ConstraintSet android:id="@+id/start">
+        <Constraint android:id="@+id/file_name_text_detail"
+            android:visibility="invisible"
+            android:scaleX="0"
+            android:scaleY="0" />
+        <Constraint android:id="@+id/status_text_detail"
+            android:visibility="invisible"
+            android:scaleX="0"
+            android:scaleY="0" />
+        <Constraint android:id="@+id/ok_button"
+            android:visibility="invisible"
+            android:scaleX="0"
+            android:scaleY="0" />
+    </ConstraintSet>
+
+    <ConstraintSet android:id="@+id/end">
+    </ConstraintSet>
+
+    <Transition
+        app:constraintSetEnd="@id/end"
+        app:constraintSetStart="@+id/start"
+        app:autoTransition="animateToEnd"
+        app:duration="1000" />
+</MotionScene>

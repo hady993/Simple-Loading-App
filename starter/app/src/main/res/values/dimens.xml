@@ -1,0 +1,18 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="default_text_size">20sp</dimen>
+
+    <!-- Step 1: Create a radio list of the following options where one of them can be selected for downloading. -->
+    <!-- 1.2: Set the radio button's margin! -->
+    <dimen name="radio_button_margin">20dp</dimen>
+
+    <!-- Step 2: Create a custom loading button by extending View class and assigning custom attributes to it. -->
+    <!-- 2.1: Set the custom view's dimens! -->
+    <dimen name="loading_button_height">60dp</dimen>
+    <dimen name="loading_button_margin">20dp</dimen>
+
+    <!-- Step 8: Create the details screen and display the name of the repository and status of the download! -->
+    <!-- 8.2: Create dimens for its elements! -->
+    <dimen name="content_detail_text_top_margin">32dp</dimen>
+</resources>
