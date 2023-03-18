@@ -1,4 +1,4 @@
-# LoadApp
+# Load App
 
 > In this project, there is an app to download a file from Internet by clicking on a custom-built button where:
  - The width of the button gets animated from left to right.
