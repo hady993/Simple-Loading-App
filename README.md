@@ -57,3 +57,12 @@ Include all items used to build project.
 
 ## License
 Please review the following [license agreement](https://bumptech.github.io/glide/dev/open-source-licenses.html)
+
+## Project Screens' Images
+
+
+![1](https://user-images.githubusercontent.com/57845885/226131056-ee622154-907e-47ff-b0ff-79b4005e6bed.png)
+![2](https://user-images.githubusercontent.com/57845885/226131065-cfd6dcca-850c-4061-9d9e-5caa3c57e4c0.png)
+![3](https://user-images.githubusercontent.com/57845885/226131070-752982c5-6e8b-42fd-90fd-e1629696e401.png)
+![4](https://user-images.githubusercontent.com/57845885/226131077-dc54244f-6c97-415a-b28c-a365a33e535b.png)
+![5](https://user-images.githubusercontent.com/57845885/226131086-c8b04184-5dab-4078-b66d-4158d9f7076b.png)
